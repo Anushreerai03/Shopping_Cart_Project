@@ -40,3 +40,10 @@ nav{
     justify-content: center;
 
 }
+button{
+    background-color:rgb(207, 207, 246);
+}
+
+input{
+    background-color:rgb(207, 207, 246);
+}
