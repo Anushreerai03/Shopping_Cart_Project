@@ -1,49 +1,84 @@
-@import url('https://fonts.googleapis.com/css2?family=Belanosima&family=Dosis:wght@200&family=Rubik+Vinyl&family=Secular+One&display=swap');
-
-*{
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
-    font-family: 'italic',cursive ;
-}
-
-nav{
+body {
+    background-color: rgb(0, 0, 0);
+  }
+  
+  .section {
     display: flex;
-    justify-content: space-between;
-    height: 50px;
-    background-color:rgb(220, 110, 20);
-    padding: 5px 60px;
-}
-
-.item{
-    background-color: #978d8d;
-    width: 100%;
-    max-width: 300px;
-    padding: 20px;
-    border-radius: 25px;
-    box-sizing: border-box;
-    border-style: solid;
-    margin: 5px;
-    margin-bottom: 5px;
-    text-align: center;
-}
-.item img{
-    max-width:   100%;
-    height: fit-content;
-    border-radius: 10px;
-    border: 1px solid rgb(207, 207, 246);
-}
-
-.section{
-    display: flex; 
     flex-wrap: wrap;
     justify-content: center;
+  }
+  
 
-}
-button{
-    background-color:rgb(207, 207, 246);
+  .nav{
+    background-color: rgb(215, 251, 215);
+    padding: 15px;
+    height: 60px;
+    color: rgb(0, 0, 0);
+    position: fixed;
+    margin-top: -5px;
+    font-size: large;
+    position: fixed;
+    width: 100%;
+    display: flex;
+    /* border-radius: 20px; */
+    justify-content: space-evenly;
 }
 
-input{
-    background-color:rgb(207, 207, 246);
+.nav a {
+    margin-left: 20px;
 }
+
+.nav i {
+    margin-right: 20px;
+}
+
+.product-container{
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    margin: 100px;
+}
+
+.item {
+  background-color: #c95252;
+  width: 30%;
+  max-width: 300px;
+  padding: 20px;
+  border-radius: 25px;
+  box-sizing: border-box;
+  border: 2px solid;
+  margin: 10px;
+  margin-bottom: 5px;
+  text-align: center;
+}
+
+.item span{
+    font-weight: bold;
+    font-size: 1.2em;
+}
+.item img {
+  max-width: 100%;
+  height: auto;
+  border-radius: 15px;
+  border: 2px solid rgb(160, 186, 28)
+}
+
+.item h2 {
+  font-size: 22px;
+  margin-top: 10px;
+  color: rgb(0, 0, 0);
+}
+ 
+.item i {
+  font-size: 19px;
+  margin-top: 10px;
+  color: rgb(0, 0, 0);
+}
+
+.item button{
+    border-radius: 12px;
+    background-color: rgb(19, 8, 62);
+    color: white;
+    font-size: large;
+}
+  
